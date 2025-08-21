@@ -78,11 +78,16 @@ button {
     border: 1px solid purple;
 }
 
+.project-container{
+    border: 1px solid orange;
+}
+
 .cell-container {
     border: 1px solid purple;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    height: 90%;
+    gap: 10px;
 }
 
 .box, .cell {
