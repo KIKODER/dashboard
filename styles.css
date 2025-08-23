@@ -25,7 +25,7 @@ button {
     height: 100vh;
     display: grid;
     grid-template-columns: 1.2fr 4.5fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
 }
 
 /* Header Section*/
@@ -38,21 +38,31 @@ button {
     align-items: center;
 }
 
+.username {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
 .top {
-    border: 1px solid blue;
     display: flex;
     padding-left: 2rem;
     padding-right: 4rem;
 }
 
 .search {
-    border: 1px solid green;
     display: flex;
     align-items: center;
 }
 
+input {
+    background-color: var(--offgray);
+    border-radius: 1rem;
+    border: none;
+    width: 20rem;
+    height: 1.5rem;
+}
+
 .user {
-    border: 1px solid pink;
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -66,7 +76,6 @@ button {
 }
 
 .bottom {
-    border: 1px solid red;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -82,7 +91,6 @@ button {
 }
 
 .current-user{
-    border: 1px solid yellow;
     display: flex;
     align-items: center;
     padding-left: 2rem;
@@ -94,7 +102,8 @@ button {
 }
 
 .welcome {
-    border: 1px solid purple;
+    font-weight: bold;
+    font-size: 0.8rem;
 }
 
 /* Sidebar Section*/
@@ -141,6 +150,7 @@ li {
 .icon {
     width: 1.5rem;
     margin-right: 1rem;
+    cursor: pointer;
 }
 
 /* Main-Content Section*/
