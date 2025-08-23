@@ -1,7 +1,7 @@
 :root {
     --offwhite: rgb(248, 248, 248);
     --offgray: rgb(214, 214, 214);
-    --sidebar: rgb(0, 195, 255);
+    --sidebar: rgb(4, 160, 207);
 }
 
 html, body {
@@ -118,9 +118,17 @@ a:hover {
     cursor: pointer;
 }
 
-
 .icon {
     border: 1px solid;
     width: 1.5rem;
 }
 
+.profile-icon {
+    width: 2.5rem;
+    border-radius: 50%;
+    /*box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.233);*/
+}
+
+.current-user .profile-icon {
+    width: 4rem;
+}
