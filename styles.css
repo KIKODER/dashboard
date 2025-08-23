@@ -60,6 +60,9 @@ button {
 
 .top {
     border: 1px solid blue;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
 }
 
 .bottom {
@@ -99,3 +102,14 @@ button {
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
+
+a:hover {
+    cursor: pointer;
+}
+
+
+.icon {
+    border: 1px solid;
+    width: 1.5rem;
+}
+
