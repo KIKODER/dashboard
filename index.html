@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
+        <section class="header">
             <div class="top">
                 <div class="search">
                     <img src="/assets/svgs/magnify.svg" alt="search" class="icon">
@@ -34,8 +34,9 @@
                     <button>Share</button>
                 </div>
             </div>
-        </div>
-        <div class="sidebar">
+        </section>
+
+        <section class="sidebar">
             <div class="branding">
                 <img src="/assets/pics/TempLogo.png" alt="Logo">
                 <div>Dashboard</div>
@@ -53,54 +54,111 @@
                     <a class="link">Tasks</a></li>
                 <li><img src="/assets/svgs/community.svg" alt="Communities" class="icon">
                     <a class="link">Communities</a></li>
-                <br>
-                <li><img src="/assets/svgs/cog.svg" alt="Settings" class="icon">
-                    <a class="link">Settings</a></li>
-                <li><img src="/assets/svgs/help.svg" alt="Support" class="icon">
-                    <a class="link">Support</a></li>
-                <li><img src="/assets/svgs/shield.svg" alt="Privacy" class="icon">
-                    <a class="link">Privacy</a></li>
             </ul>
-        </div>
-        <div class="main-content">
-            <div class="project-container">
-                <div>Projects</div>
-                <div class="cell-container">
-                    <div class="cell">Imprompt'd
-                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta maximus lectus vel tincidunt. Vivamus vel dui risus.</div>
-                    </div>
-                    <div class="cell">McConverter
-                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta maximus lectus vel tincidunt. Vivamus vel dui risus.</div>
-                    </div>
-                    <div class="cell">Calculator
-                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta maximus lectus vel tincidunt. Vivamus vel dui risus.</div>
-                    </div>
-                    <div class="cell">Signup Form
-                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta maximus lectus vel tincidunt. Vivamus vel dui risus.</div>
-                    </div>
-                    <div class="cell">Etch-A-Sketch
-                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta maximus lectus vel tincidunt. Vivamus vel dui risus.</div>
-                    </div>
-                    <div class="cell">RPS Online
-                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta maximus lectus vel tincidunt. Vivamus vel dui risus.</div>
-                    </div>
-                </div>
-            </div>
-            <div class="main-side">
-                <div class="announcement-container">
-                    <div>Announcements</div>
-                    <div class="box">
-                        
-                    </div>
-                </div>
-                <div class="trending-container">
-                    <div>Trending</div>
-                    <div class="box">
+            <ul class="nav">
+                <li><img src="/assets/svgs/cog.svg" alt="Settings" class="icon">
+                    <a class="link">Settings</a>
+                </li>
+                <li><img src="/assets/svgs/help.svg" alt="Support" class="icon">
+                    <a class="link">Support</a>
+                </li>
+                <li><img src="/assets/svgs/shield.svg" alt="Privacy" class="icon">
+                    <a class="link">Privacy</a>
+                </li>
+            </ul>
+        </section>
 
-                    </div>
+        <main class="main">
+            <section class="projects">
+                <h2>Your Projects</h2>
+                <div class="projects-grid">
+                    <article class="card">
+                        <h3>Imprompt'd</h3>
+                        <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta maximus lectus
+                            vel tincidunt. Vivamus vel dui risus.</p>
+                    </article>
+                    <article class="card">
+                        <h3>McConverter</h3>
+                        <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta maximus lectus
+                            vel tincidunt. Vivamus vel dui risus.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Calculator</h3>
+                        <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta maximus lectus
+                            vel tincidunt. Vivamus vel dui risus.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Signup Form</h3>
+                        <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta maximus lectus
+                            vel tincidunt. Vivamus vel dui risus.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Etch-A-Sketch</h3>
+                        <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta maximus lectus
+                            vel tincidunt. Vivamus vel dui risus.</p>
+                    </article>
+                    <article class="card">
+                        <h3>RPS Online</h3>
+                        <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta maximus lectus
+                            vel tincidunt. Vivamus vel dui risus.</p>
+                    </article>
                 </div>
-            </div>
-        </div>
+            </section>
+        
+            <aside class="side">
+                <section class="announcements">
+                    <h2>Announcements</h2>
+                    <div class="card announcements-grid">
+                        <article class="ann-item">
+                            <h4>Site Maintenance</h4>
+                            <p class="muted">Vestibulum condimentum tellus lacus, in accumsan elit maximus…</p>
+                        </article>
+                        <article class="ann-item">
+                            <h4>Community Share Day</h4>
+                            <p class="muted">Nam vel lectus tincidunt, rutrum nulla eu, ornare libero…</p>
+                        </article>
+                        <article class="ann-item">
+                            <h4>Updated Privacy Policy</h4>
+                            <p class="muted">Phasellus efficitur nisi eget elit consequat…</p>
+                        </article>
+                    </div>
+                </section>
+        
+                <section class="trending">
+                    <h2>Trending</h2>
+                    <div class="card trending-list">
+                        <article class="trend">
+                            <img src="/assets/pics/KikoIcon.jpg" alt="" class="avatar">
+                            <div>
+                                <div class="handle">@tegan</div>
+                                <div class="muted">World Peace Builder</div>
+                            </div>
+                        </article>
+                        <article class="trend">
+                            <img src="/assets/pics/KikoIcon.jpg" alt="" class="avatar">
+                            <div>
+                                <div class="handle">@morgan</div>
+                                <div class="muted">Super Cool Project</div>
+                            </div>
+                        </article>
+                        <article class="trend">
+                            <img src="/assets/pics/KikoIcon.jpg" alt="" class="avatar">
+                            <div>
+                                <div class="handle">@kendall</div>
+                                <div class="muted">Life Changing App</div>
+                            </div>
+                        </article>
+                        <article class="trend">
+                            <img src="/assets/pics/KikoIcon.jpg" alt="" class="avatar">
+                            <div>
+                                <div class="handle">@alex</div>
+                                <div class="muted">No Traffic Maker</div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </aside>
+        </main>
     </div>
 </body>
 </html>
