@@ -180,20 +180,21 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 90%;
-    gap: 10px;
+    gap: 20px;
     margin-top: 0.5rem;
 }
 
-.cell {
-    background-color: white;
+.cell, .box {
+    background-color: var(--offwhite);
     border-radius: 15px;
     padding: 2rem 1.5rem;
 }
 
 .description {
+    color: rgb(74, 74, 74);
     font-weight: 200;
     font-size: 1rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 
 .main-side {
@@ -203,5 +204,5 @@ li {
 }
 
 .box {
-    background-color: var(--offwhite);
+    margin-top: 1rem;
 }
